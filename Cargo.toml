@@ -10,4 +10,5 @@ path = "src/haskell.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
-zed_extension_api = "0.1.0"
+serde_json = "1.0.149"
+zed_extension_api = {path = "../Projects/zed/crates/extension_api"}
